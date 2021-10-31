@@ -1,0 +1,58 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+    grid-template-rows: 50px 2fr 2fr;
+    gap: 10px;
+    font-family: 'Zen Antique', Georgia, serif;
+}
+
+.cell-1 {
+
+    font-weight: bolder;
+}
+
+.logo {
+
+    width: 44px;
+    height: 44px;
+    left: 56px;
+    top: 51px;
+}
+
+
+
+.search {
+    width: 18.75px;
+    height: 18.75px;
+    left: 2px;
+    top: 2px;
+}
+
+.cell-3 {
+    font-weight: bolder;
+
+}
+
+.cell-4 {
+    display: grid;
+
+    align-items: stretch;
+}
+
+.cell-5 {
+    display: grid;
+
+    align-content: space-between;
+}
+
+
+.uno {
+    border-radius: 25px;
+}
+
+.cell-7 {
+    display: grid;
+
+    font-weight: bolder;
+    align-self: end;
+}
