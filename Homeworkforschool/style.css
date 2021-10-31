@@ -1,0 +1,72 @@
+h1 {
+    color: #00868A;
+}
+
+h1:first-child {
+    text-indent: 30px;
+}
+
+p {
+    color: black;
+    font-family: 'Montserrat', Times, sans-serif;
+}
+
+p:hover {
+    background-color: #00868A;
+}
+
+img {
+    border-radius: 25px;
+
+}
+
+.menu {
+    text-decoration: none;
+    color: black;
+    padding: 4px;
+    font-weight: bolder;
+}
+
+.menu:hover {
+    text-decoration: underline;
+}
+
+.foot {
+    text-decoration: none;
+    color: #4FBFA5;
+    padding: 4px;
+    font-weight: bolder;
+}
+
+.foot:hover {
+    text-decoration: underline;
+}
+
+.flexc {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
+
+.flex1 {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    padding: 10px
+}
+
+.hat {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+#logo {
+    position: absolute;
+    right: 10px;
+    opacity: 0.5;
+    padding: 10px;
+    margin: 10px;
+
+}
