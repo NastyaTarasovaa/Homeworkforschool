@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Пример</title>
+    <style>
+        .container {
+            display: grid;
+            grid-gap: 5px;
+            grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+            grid-template-rows: repeat (2, 100px);
+        }
+
+        .container>div>img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <img src="assets/images/1631458057_12-papik-pro-p-peizazhi-norvegii-12.jpg">
+        </div>
+        <div>
+            <img src="assets/images/417794-svetik.jpg">
+        </div>
+        <div>
+            <img src="assets/images/4f0db_420933.jpg">
+        </div>
+        <div>
+            <img src="assets/images/norway-bjorn-peder-bjorkeland-ozero-zakat-nebo-skaly-domik.jpg">
+        </div>
+        <div>
+            <img src="assets/images/The-Norwegian-landscape-photographer-Martynas-Milkevicius-01.jpg">
+        </div>
+        <div>
+            <img
+                src="assets/images/trees-landscape-sea-bay-lake-water-rock-nature-shore-reflection-Norway-morning-coast-cliff-fjord-valley-wilderness-Terrain-cloud-mountain-ocean-wave-material-loch-atmospheric-p.jpg">
+        </div>
+    </div>
+
+</body>
+
+</html>
